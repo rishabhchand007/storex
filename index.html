@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STORE X | SHOES </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a4d0713702.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <!--Here Contains the LOGO or Title of the site-->
+                STORE X
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">PRODUCTS</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">CONTACT</a></li>
+                    <li><a href="">LOGIN</a></li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" width="30px" height="30px" alt="">
+            <img src="images/menu.png" alt="" class="menu-icon" onclick="menuToggle()">
+        
+            
+        </div>
+
+        <div class="slog">
+            <!--Here is the main text of the website for home -->
+            <div class="col-2">
+                <h2>SOMETIMES A NEW PAIR <br>IS ALL YOU NEED!</h2>
+                <a href="" class="btn">EXPLORE NOW &#10230;</a>
+            </div>
+            <div class="col-2">
+                <img src="images/img.png" alt="">
+            </div>
+        </div>
+    </div>
+    </div>
+    <!--FEATURED PRODUCTS-->
+    <div class="container-2">
+    <div class="featured">
+        <h3>FEATURED PRODUCTS</h3>
+        <div class="row">
+            <div class="col-3">
+                <img src="images/nke.PNG" alt="">
+                <br>
+                AIR JORDAN 1 RETRO HIGH OG
+                <p>$100</p>
+            </div>
+            <div class="col-3">
+                <img src="images/nb.png" alt="">
+                <nam>OFF-WHITE X WMNS JORDAN 4</nam>
+                <p>$700</p>
+            </div>
+            <div class="col-3">
+                <img src="images/nb2.png" alt="">
+                <name>NB 550 'TEAM CAROLINA BLUE'</name>
+                <p>$600</p>
+            </div>
+            <div class="col-3">
+                <img src="images/vans.png" alt="">
+                <name>NOTRE X VAULT OG OLD SKOOL</name>
+                <p>$600</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!--FOOTER-->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="gethelp">
+                <h4>GET HELP</h4>
+            <ul>
+                <li><a href="">Payment Options</a></li> 
+                <li><a href="">Available Cities</a></li>
+                <li><a href="">Report a problem</a></li>
+            </ul>          
+            </div>
+            <div class="social">
+                <ul>
+                    
+                    <li><a href=""><i class="fa-brands fa-facebook fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-instagram fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-twitter fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-youtube fa-2x"></i></a></li>
+                </ul>
+    
+            </div>
+        </div>
+        
+    </div>
+    
+    <!--JS FOR TOGGLE MENU-->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+
+        function menuToggle(){
+            if (MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else
+            {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+            
+    </script>
+</body>
+</html>
